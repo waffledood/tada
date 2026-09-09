@@ -12,13 +12,21 @@
   font-weight: 400;
 
   color: #0f0f0f;
-  background-color: #f6f6f6;
+  background-color: transparent;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  background-color: transparent;
 }
 
 .container {
@@ -28,6 +36,10 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #ffe066;
+  border-radius: 12px;
 }
 
 .logo {
@@ -98,7 +110,6 @@ button {
 @media (prefers-color-scheme: dark) {
   :root {
     color: #f6f6f6;
-    background-color: #2f2f2f;
   }
 
   a:hover {
