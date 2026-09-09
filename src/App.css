@@ -30,6 +30,7 @@ body,
 }
 
 .container {
+  position: relative;
   margin: 0;
   padding-top: 10vh;
   display: flex;
@@ -40,6 +41,16 @@ body,
   box-sizing: border-box;
   background-color: #ffe066;
   border-radius: 12px;
+  overflow: hidden;
+}
+
+.drag-handle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: #e0c55a;
 }
 
 .logo {

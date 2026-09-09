@@ -13,6 +13,7 @@ function App() {
 
   return (
     <main className="container">
+      <div data-tauri-drag-region className="drag-handle" />
       <h1>Tada</h1>
       <p>{status}</p>
     </main>
