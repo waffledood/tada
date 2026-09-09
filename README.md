@@ -47,6 +47,23 @@ The first milestone is a small macOS prototype with:
 4. Persist notes between launches
 5. Access Tada from the macOS menu bar
 
+## Running Locally
+
+Prerequisites:
+
+- [Node.js](https://nodejs.org/)
+- [Rust](https://www.rust-lang.org/tools/install) (`cargo`/`rustc`, via rustup or Homebrew)
+- macOS with Xcode Command Line Tools (`xcode-select --install`)
+
+Then:
+
+```bash
+npm install
+npm run tauri dev
+```
+
+This launches the app in development mode with hot reload. A native window should open.
+
 ## Waffle Labs
 
 Tada is a project by **Waffle Labs** — an independent studio exploring thoughtful, quirky software.
